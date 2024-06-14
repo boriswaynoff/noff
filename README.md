@@ -31,3 +31,4 @@ jobs:
           node-version: '20.0.0-v8-canary' # it will install the latest v8 canary release for node 20.0.0
       - run: npm ci
       - run: npm test
+      )
