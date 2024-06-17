@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '14'
+          node-version: '12'
           architecture: 'x64' # optional, x64 or x86. If not specified, x64 will be used by default
       - run: npm ci
       - run: npm test
